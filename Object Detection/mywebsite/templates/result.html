@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Result Page</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/resultstyles.css' %}">
+</head>
+<body>
+    <h1>This is a Result Page</h1>
+    <div class="center-container">
+        <h3>Predicted Output</h3>
+        {% for r, p in res %}
+            <p class="result-item">{{ r }} {{ p }}%</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
