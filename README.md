@@ -1,6 +1,8 @@
 # Object-Detection-with-Deep-Learning-and-Django
 This would identify the contents from an uploaded image
-Step-1: ![Screenshot (438)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/010542d4-73c5-42dd-bb0e-8e80a3b9145e)
+
+Step-1: This is my Home Page to Upload an Image from Your local device
+![Screenshot (438)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/010542d4-73c5-42dd-bb0e-8e80a3b9145e)
 
 Step-2: Click on Choose File and Upload an image
 ![Screenshot (439)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/147789a6-b398-49da-a538-4a6750d2e25c)
