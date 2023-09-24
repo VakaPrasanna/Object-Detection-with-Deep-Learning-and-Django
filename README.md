@@ -1,14 +1,14 @@
 # Object-Detection-with-Deep-Learning-and-Django
-This would identify the contents from an uploaded image
+This would predict the contents/items from an uploaded image from your local device with a greater Accuracy.
 
 Step-1: This is my Home Page to Upload an Image from Your local device
 ![Screenshot (438)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/010542d4-73c5-42dd-bb0e-8e80a3b9145e)
 
 Step-2: Click on Choose File and Upload an image
-![Screenshot (439)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/147789a6-b398-49da-a538-4a6750d2e25c)
+![Screenshot (443)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/7e333d5e-c438-40ab-9e3c-4a3a6811dd48)
 
 Now the image, get's selected as shown below:
-![Screenshot (440)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/ad92af46-54b9-4635-b9e7-9dc5c82b3e64)
+![Screenshot (444)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/ee86ea2d-2abf-45a1-8b0a-875bb3433d71)
 
 Step-3: Click on submit, This would give the items/Contents of your uploaded image with the Percentage. This works with greater Accuracy.
-![Screenshot (441)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/26846999-eaff-4f46-b369-d481ac73c590)
+![Screenshot (446)](https://github.com/VakaPrasanna/Object-Detection-with-Deep-Learning-and-Django/assets/96370281/03ec6884-d20c-4661-b656-e944f831a9d3)
