@@ -1,0 +1,43 @@
+/* Apply styles to the header */
+header {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the header title */
+.header-title {
+    font-size: 24px;
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the upload form */
+.upload-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the file input and submit button */
+.file-input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: #27ae60; /* Green background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+    background-color: #219651; /* Darker green on hover */
+}

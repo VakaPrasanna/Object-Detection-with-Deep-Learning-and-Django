@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Upload an Image to Identify its Contents</h1>
+    <div class="upload-form-container">
+        <form action="imageprocess/" method="POST" enctype="multipart/form-data" class="upload-form">
+            {% csrf_token %}
+            <label for="image" class="file-label">
+                Choose your file:
+                <span class="selected-file">No file selected</span>
+                <input id="image" type="file" name="image" class="file-input" onchange="displaySelectedFile()">
+            </label>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+    <script>
+        function displaySelectedFile() {
+            const fileInput = document.getElementById("image");
+            const selectedFileText = document.querySelector(".selected-file");
+
+            if (fileInput.files.length > 0) {
+                selectedFileText.textContent = fileInput.files[0].name;
+            } else {
+                selectedFileText.textContent = "No file selected";
+            }
+        }
+    </script>
+</body>
+</html>
+
